@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects - Ali Syava Ramadhan</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body>
+
+        <nav
+            class="bg-green-600 border-gray-200 dark:bg-gray-900 md:w-full md:fixed z-10">
+            <div
+                class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html"
+                    class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <span
+                        class="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-black">My
+                        Portofolio</span>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto"
+                    id="navbar-default">
+                    <ul
+                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:border-gray-700">
+                        <li>
+                            <a href="index.html"
+                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html"
+                                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 text-white md:dark:hover:text-green-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                        </li>
+                        <li>
+                            <a href="projects.html"
+                                class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-green-300 md:p-0 dark:text-white md:dark:text-blue-500">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section
+            class="bg-green-300 device-width w-full h-screen flex justify-evenly items-center p-7">
+            <div class="w-1/2">
+                <h1
+                    class="font-black text-white text-3xl bg-green-600 p-2 rounded-t-md">Recent
+                    Project</h1>
+                <img src="eq+.jpg"
+                    class="border-4 border-green-600 rounded-b-md cursor-pointer"
+                    alt onclick="klikGambar(this)">
+            </div>
+        </section>
+
+        <section
+            class="bg-green-300 device-width w-full h-screen grid grid-cols-4 gap-4 items-start p-7">
+            <div
+                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <div>
+                    <img
+                        class="rounded-t-lg w-full h-[150px] object-cover cursor-pointer"
+                        src="sigma.jpg" alt onclick="klikGambar(this)" />
+                </div>
+                <div class="p-5">
+                    <h5
+                        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sigma</h5>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">Aplikasi
+                        Sosial Media Sederhana</p>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">Django,
+                        Python, HTML, CSS, JS</p>
+                </div>
+            </div>
+            <div
+                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <div>
+                    <img
+                        class="rounded-t-lg w-full h-[150px] object-cover cursor-pointer"
+                        src="eq+.jpg" alt onclick="klikGambar(this)" />
+                </div>
+                <div class="p-5">
+                    <h5
+                        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">EQ+</h5>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">Aplikasi
+                        Catatan Bimbingan Belajar</p>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">Laravel,
+                        Mysql, HTML, Tailwind CSS, JS, React JS</p>
+                </div>
+            </div>
+            <div
+                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <div>
+                    <img
+                        class="rounded-t-lg w-full h-[150px] object-cover cursor-pointer"
+                        src="City Management Simulator.jpg" alt
+                        onclick="klikGambar(this)" />
+                </div>
+                <div class="p-5">
+                    <h5
+                        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">City
+                        management Simulator</h5>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">Permainan
+                        mengatur kota sederhana berbasis CLI</p>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">C++</p>
+                </div>
+            </div>
+            <div
+                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+                <div>
+                    <img
+                        class="rounded-t-lg w-full h-[150px] object-cover cursor-pointer"
+                        src="Blind Chess.jpg" alt onclick="klikGambar(this)" />
+                </div>
+                <div class="p-5">
+                    <h5
+                        class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blind
+                        Chess</h5>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">Permainan
+                        catur buta berbasis CLI</p>
+                    <p
+                        class="mb-3 font-normal text-gray-700 dark:text-gray-400">C++</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main modal -->
+        <div id="progress-modal" onclick="togglePopUp()"
+            class="hidden bg-black bg-opacity-50 overflow-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-100% max-h-full flex items-center justify-center flex-wrap">
+            <div class="relative p-4 w-auto max-w-2xl">
+                <!-- Modal content -->
+                <div
+                    class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700">
+                    <div class="p-4 md:p-5">
+                        <img src="#" class="max-h-[75vh]" id="modal-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-green-600">
+            <div class="mx-auto w-full max-w-screen-xl">
+                <div
+                    class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                    <div>
+                        <h2
+                            class="mb-6 text-sm font-semibold text-gray-200 uppercase">Social</h2>
+                        <ul class="text-white font-medium">
+                            <li class="mb-4">
+                                <a
+                                    href="https://www.linkedin.com/in/ali-syava-ramadhan/"
+                                    target="_blank"
+                                    class=" hover:underline">LinkedIn</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://github.com/alisyavaramadhan"
+                                    target="_blank"
+                                    class="hover:underline">GitHub</a>
+                            </li>
+                            <li class="mb-4">
+                                <a
+                                    href="https://www.instagram.com/massivecarton22/"
+                                    target="_blank"
+                                    class="hover:underline">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2
+                            class="mb-6 text-sm font-semibold text-gray-200 uppercase">Contact</h2>
+                        <ul class="text-white font-medium">
+                            <li class="mb-4">
+                                <a href="https://wa.me/62895809621100"
+                                    target="_blank"
+                                    class="hover:underline">WhatsApp</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="mailto:24051204121@mhs.unesa.ac.id"
+                                    target="_blank"
+                                    class="hover:underline">Email</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2
+                            class="mb-6 text-sm font-semibold text-gray-200 uppercase">Others</h2>
+                        <ul class="text-white font-medium">
+                            <li class="mb-4">
+                                <a href="CV Ali.pdf"
+                                    target="_blank"
+                                    class="hover:underline">CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+
+</html>
